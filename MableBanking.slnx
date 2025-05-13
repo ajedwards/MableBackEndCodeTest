@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MableBanking.ConsoleApp/MableBanking.ConsoleApp.csproj" />
+  </Folder>
+</Solution>
