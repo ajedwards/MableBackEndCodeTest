@@ -1,5 +1,24 @@
 <Solution>
+  <Folder Name="/data/">
+    <File Path="data/mable_account_balances.csv" />
+    <File Path="data/mable_transactions.csv" />
+  </Folder>
+  <Folder Name="/docs/">
+    <File Path="MABLE_BACK_END_CODE_TEST.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/scripts/">
+    <File Path="RUNME.bat" />
+    <File Path="TESTME.bat" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/MableBanking.ConsoleApp/MableBanking.ConsoleApp.csproj" />
+    <Project Path="src/MableBanking.Domain/MableBanking.Domain.csproj" />
+    <Project Path="src/MableBanking.Infrastructure/MableBanking.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MableBanking.Domain.UnitTests/MableBanking.Domain.UnitTests.csproj" />
+    <Project Path="tests/MableBanking.Infrastructure.UnitTests/MableBanking.Infrastructure.UnitTests.csproj" />
+    <Project Path="tests/MableBanking.ConsoleApp.Specs/MableBanking.ConsoleApp.Specs.csproj" />
   </Folder>
 </Solution>
